@@ -25,10 +25,6 @@ services:
       - '3004:3000'
     networks:
       - postiz-network
-    labels:
-      - traefik.enable=true
-      - 'traefik.https.routers.<unique_router_name>.rule=Host(`coolify.io`) && PathPrefix(`/`)'
-      - traefik.https.routers.<unique_router_name>.entryPoints=https
     depends_on:
       postiz-postgres:
         condition: service_healthy
