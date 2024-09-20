@@ -6,7 +6,7 @@ services:
     environment:
       MAIN_URL: 'https://sm.sbazar.in'
       FRONTEND_URL: 'https://sm.sbazar.in'
-      NEXT_PUBLIC_BACKEND_URL: 'https://sm.sbazar.in'
+      NEXT_PUBLIC_BACKEND_URL: 'https://sm.api.sbazar.in'
       JWT_SECRET: qwertyuvbnmosikdjfbnjdk
       CLOUDFLARE_ACCOUNT_ID: QhcMSXQyPuMCRpSQcSYdEuTYgHeCXHbu
       CLOUDFLARE_ACCESS_KEY: dcfCMSuFEeCNfvByUureMZEfxWJmDqZe
