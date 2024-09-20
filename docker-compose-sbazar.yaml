@@ -6,7 +6,7 @@ services:
     environment:
       MAIN_URL: 'https://sm.sbazar.in'
       FRONTEND_URL: 'https://sm.sbazar.in'
-      NEXT_PUBLIC_BACKEND_URL: 'https://sm.api.sbazar.in'
+      NEXT_PUBLIC_BACKEND_URL: 'https://sm.sbazar.in'
       JWT_SECRET: qwertyuvbnmosikdjfbnjdk
       CLOUDFLARE_ACCOUNT_ID: QhcMSXQyPuMCRpSQcSYdEuTYgHeCXHbu
       CLOUDFLARE_ACCESS_KEY: dcfCMSuFEeCNfvByUureMZEfxWJmDqZe
@@ -21,8 +21,8 @@ services:
     volumes:
       - 'postiz-config:/config/'
     ports:
-      - '4201:4201'
-      - '3004:3004'
+      - '4201:4200'
+      - '3004:3000'
     networks:
       - postiz-network
     labels:
